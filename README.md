@@ -7,15 +7,22 @@
 [![license](https://custom-icon-badges.herokuapp.com/github/license/weleen/awesome-aigc?logo=law&logoColor=white)](https://github.com/weleen/awesome-aigc/blob/main/LICENSE?rgh-link-date=2021-08-09T18%3A10%3A26Z "license MIT")
 [![stars](https://custom-icon-badges.herokuapp.com/github/stars/weleen/awesome-aigc?logo=star)](https://github.com/weleen/awesome-aigc/stargazers "stars")
 
-This repo collects papers and repositories about AI-Generated Content . Especially, we focus on the diffusion model, LLM, and MLLM etc.. Please feel free to PR the works missed by the repo. We use the following format to record the papers:
+This repo collects papers and repositories about AI-Generated Content. Especially, we focus on the diffusion model, LLM, and MLLM etc.. Please feel free to PR the works missed by the repo. We use the following format to record the papers:
 ```
 [Paper Title](paper link), Conference/Journal, Year, Team | [code](code link), [project](project link)
 ```
+Some specific topics such as efficient AIGC is collected in [here](./topics/efficient_aigc.md).
 
+## TODO
+
+- [ ] Update ICLR2025 submitted papers.
+- [ ] Update NeurIPS2024 papers.
+- [x] Update ECCV2024 papers.
 
 ## Table of Contents
 
 - [Awesome AIGC](#awesome-aigc)
+  - [TODO](#todo)
   - [Table of Contents](#table-of-contents)
   - [Survey](#survey)
   - [Language](#language)
@@ -31,6 +38,7 @@ This repo collects papers and repositories about AI-Generated Content . Especial
   - [Codebase](#codebase)
     - [Image Synthesis](#image-synthesis-1)
     - [Video Synthesis](#video-synthesis-1)
+    - [Others](#others-1)
   - [Leadboard](#leadboard)
   - [Links](#links)
 
@@ -158,6 +166,7 @@ This repo collects papers and repositories about AI-Generated Content . Especial
 
 <details><summary>2024</summary>
 
+- [HunyuanVideo: A Systematic Framework For Large Video Generation Model Training](https://arxiv.org/abs/2412.03603), ArXiv, 2024, Tencent. | [project](https://aivideo.hunyuan.tencent.com/), [code](https://github.com/Tencent/HunyuanVideo)
 - [Animate Your Motion: Turning Still Images into Dynamic Videos](https://arxiv.org/abs/2403.10179), ECCV, 2024 | [code](https://github.com/Mingxiao-Li/Animate-Your-Motion)
 - [Audio-Synchronized Visual Animation](https://arxiv.org/abs/2403.05659), ECCV, 2024 | [code](https://github.com/lzhangbj/ASVA)
 - [Champ: Controllable and Consistent Human Image Animation with 3D Parametric Guidance](https://arxiv.org/abs/2403.14781), ECCV, 2024 | [code](https://github.com/fudan-generative-vision/champ)
@@ -580,7 +589,7 @@ This repo collects papers and repositories about AI-Generated Content . Especial
 
 ### Image Synthesis
 
-- [Flux.1](https://huggingface.co/black-forest-labs) | [code](https://github.com/black-forest-labs/flux) ![Github Repo stars]((https://img.shields.io/github/stars/black-forest-labs/flux)
+- [Flux.1](https://huggingface.co/black-forest-labs) | [code](https://github.com/black-forest-labs/flux) ![Github Repo stars](https://img.shields.io/github/stars/black-forest-labs/flux)
 
 ### Video Synthesis
 
@@ -588,6 +597,12 @@ This repo collects papers and repositories about AI-Generated Content . Especial
 - LTX-Video: A Lightweight Video Transformer for Efficient Video Generation [[code](https://github.com/Lightricks/LTX-Video)], [model](https://huggingface.co/Lightricks/LTX-Video) ![GitHub Repo stars](https://img.shields.io/github/stars/Lightricks/LTX-Video)
 - [Mochi-1](https://www.genmo.ai/blog) | [code](https://github.com/genmoai/mochi) ![GitHub Repo stars](https://img.shields.io/github/stars/genmoai/mochi)
 - [CogVideo](https://arxiv.org/abs/2408.06072) | [code](https://github.com/THUDM/CogVideo) ![GitHub Repo stars](https://img.shields.io/github/stars/THUDM/CogVideo)
+- [Open-Sora](https://github.com/hpcaitech/Open-Sora) ![GitHub Repo stars](https://img.shields.io/github/stars/hpcaitech/Open-Sora)
+- [Open-Sora-Plan](https://github.com/PKU-YuanGroup/Open-Sora-Plan) ![GitHub Repo stars](https://img.shields.io/github/stars/PKU-YuanGroup/Open-Sora-Plan)
+- [Latte](https://arxiv.org/abs/2401.03048) | [project](https://maxin-cn.github.io/latte_project/), [code](https://github.com/Vchitect/Latte) ![GitHub Repo stars](https://img.shields.io/github/stars/Vchitect/Latte)
+### Others
+
+- [SimpleTuner)](https://github.com/bghira/SimpleTuner)![GitHub Repo stars](https://img.shields.io/github/stars/bghira/SimpleTuner)
 
 ## Leadboard
 
@@ -595,6 +610,11 @@ This repo collects papers and repositories about AI-Generated Content . Especial
 
 ## Links
 
+- [Awesome-Video-Diffusion-Models](https://github.com/ChenHsing/Awesome-Video-Diffusion-Models)![GitHub Repo stars](https://img.shields.io/github/stars/ChenHsing/Awesome-Video-Diffusion-Models)
+- [video-generation-survey](https://github.com/yzhang2016/video-generation-survey)![GitHub Repo stars](https://img.shields.io/github/stars/yzhang2016/video-generation-survey)
+- [Awesome-Video-Diffusion](https://github.com/showlab/Awesome-Video-Diffusion)![GitHub Repo stars](https://img.shields.io/github/stars/showlab/Awesome-Video-Diffusion)
+- [awesome-text-to-image-studies](https://github.com/AlonzoLeeeooo/awesome-text-to-image-studies)![GitHub Repo stars](https://img.shields.io/github/stars/AlonzoLeeeooo/awesome-text-to-image-studies)
+- [awesome-video-generation](https://github.com/AlonzoLeeeooo/awesome-video-generation)![GitHub Repo stars](https://img.shields.io/github/stars/AlonzoLeeeooo/awesome-video-generation)
 - [NeurIPS2024 Accepted Papers](https://neurips.cc/virtual/2024/papers.html?filter=titles)
 - [ECCV2024 Accepted Papers](https://docs.google.com/spreadsheets/d/1G8FQNlitoRr1oK2-LZEloeg0_VBP-E0J_WoSXqAhxNo/pubhtml#)
 - [CVPR2024 Accepted Papers](https://cvpr.thecvf.com/Conferences/2024/AcceptedPapers)
